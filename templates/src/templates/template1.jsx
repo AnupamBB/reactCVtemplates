@@ -6,15 +6,30 @@ const Template1 = () => {
     <div>
       <div className="page">
         <div className="blocks">
+          {/* left block starts */}
+
           <div className="leftBlock">
             <div className="profile">
               <img src="./images/profile.jpg" alt="" />
             </div>
-            <div className="contact">Contact</div>
-            <div className="education">Education</div>
-            <div className="expertise">Expertise</div>
-            <div className="language">Language</div>
+            <div className="contact leftTagline">Contact</div>
+            <div>
+
+              <div className="contactTitle data">Phone Number</div>
+              <div className="contactDetails data">123-456-7890</div>
+              <div className="contactTitle data">Email</div>
+              <div className="contactDetails data">abc@gmail.com</div>
+              <div className="contactTitle data">Address</div>
+              <div className="contactDetails data">abc state, any city</div>
+            </div>
+            <div className="education leftTagline">Education</div>
+            <div className="expertise leftTagline">Expertise</div>
+            <div className="language leftTagline">Language</div>
+
           </div>
+
+          {/* left block starts */}
+
           <div className="rightBlock">
             <div className="header">
               <h1>Anupam Bor Boruah</h1>
@@ -51,6 +66,20 @@ const Template1 = () => {
               cumque, quod et repellat obcaecati. Vel, ducimus harum.
             </div>
             <div className="talgilne projects">Projects</div>
+            <div>
+              <div className="ProjectName">Project Name</div>
+              <div className="ProjectDate">MONTH 20XX - PRESENT</div>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+            </div>
+            <div>
+              <div className="ProjectName">Project Name</div>
+              <div className="ProjectDate">MONTH 20XX - MONTH 20XX</div>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+            </div>
           </div>
         </div>
       </div>

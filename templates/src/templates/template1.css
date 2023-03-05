@@ -18,11 +18,45 @@
     align-items: center;
 }
 
+.leftHeaders{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+
+
+.leftTagline{
+    padding-top:20px ;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    width: 150px;
+    
+}
+
+.data{
+    width: 150px;
+
+}
+
+.contactTitle{
+    margin-top: 7px;
+    font-size: 10px;
+}
+.contactDetails{
+    font-size: 12px;
+}
 .profile img{
     margin-top: 20px;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border-radius: 100px;
+}
+
+.contact{
+    padding-top: 20px;
 }
 
 
@@ -43,6 +77,12 @@
     font-size: 14px solid black;
     text-decoration: 5px solid;
     border-bottom: 2px solid;
+    font-weight: 700;
+}
+
+.year{
+    
+    font-weight: 600;
 }
 
 .rightText{
@@ -56,6 +96,18 @@
     padding-bottom: 5px;
 }
 
-.header{
+.ProjectName{
+    padding-top: 20px;
+    font-size: 12px
     
+}
+
+.ProjectDate{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+li{
+    font-size: 10px;
+    margin-top: 5px;
 }
