@@ -1,0 +1,61 @@
+.blocks{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+/* left box css */
+
+.leftBlock{
+    height: 842px;
+    width: 198px;
+    background-color: rgb(21, 66, 101);
+    color: white;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img{
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+
+/* right box css */
+
+.rightBlock{
+    height: 842px;
+    width: 367px;
+    background-color: white;
+    color: black;
+    padding-left:20px ;
+    padding-right: 10px;
+}
+
+
+.talgilne{
+    margin-top: 30px;
+    font-size: 14px solid black;
+    text-decoration: 5px solid;
+    border-bottom: 2px solid;
+}
+
+.rightText{
+    font-size: 10px;
+}
+
+.year{
+    padding-top: 15px;
+}
+.jobPositon{
+    padding-bottom: 5px;
+}
+
+.header{
+    
+}
